@@ -1,0 +1,6 @@
+name: mongodb-fb
+
+# Kubernetes namespace to install into (can be overridden)
+namespace: ffisa-dev
+
+replicaCount: 1
