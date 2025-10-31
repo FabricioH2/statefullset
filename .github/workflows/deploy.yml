@@ -48,6 +48,3 @@ jobs:
         run: |
           helm show chart oci://registry-1.docker.io/cloudpirates/mongodb 
           helm upgrade my-mongodb oci://registry-1.docker.io/cloudpirates/mongodb   --reuse-values   --values values.yaml
-
-helm show chart oci://registry-1.docker.io/fabricioph2/mi-chart --version 3
-          helm upgrade --install microservicio-1 oci://registry-1.docker.io/fabricioph2/mi-chart --version 3 --values values.yaml
